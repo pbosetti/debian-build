@@ -6,7 +6,7 @@ WORKDIR /root/build
 COPY bash_profile /root/.bash_profile
 RUN apt-get update && apt-get install -y \
   bsdmainutils \
-  build-essential clang bison \
+  build-essential clang bison cmake \
   ruby ruby-dev \
   git \
   libyaml-0-2 libyaml-dev \
