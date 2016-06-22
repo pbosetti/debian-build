@@ -8,4 +8,4 @@ Provides make, GCC, Clang/LLVM, ruby and some gems.
 
 # Run image
 
-    docker run -it --name debian-build -h dbm -v /path/to/your/local/build/dir:/root/build debian-build
+    docker run -it --name debian-build -h dbm -v `pwd`:/root/build debian-build
