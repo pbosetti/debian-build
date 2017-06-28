@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y \
   build-essential clang bison cmake \
   ruby ruby-dev \
   git \
+  vim \
   libyaml-0-2 libyaml-dev \
   libpcre3 libpcre3-dev \
   libatlas-base-dev libatlas-dev \
