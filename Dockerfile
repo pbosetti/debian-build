@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y \
   vim \
   libyaml-0-2 libyaml-dev \
   libpcre3 libpcre3-dev \
-  libatlas-base-dev libatlas-dev \
+  libatlas-base-dev \
   libblas3 libblas-common libblas-dev \
   && rm -rf /var/lib/apt/lists/*
 RUN gem install erubis pry colorize rake --no-rdoc --no-ri
